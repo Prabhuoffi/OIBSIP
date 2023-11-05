@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:wght@300;400;500;600&family=Outfit:wght@200;300;400;500;600;700;800;900&family=Roboto+Mono:ital@0;1&family=Tilt+Neon&family=Young+Serif&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Poppins';
+}
+
+.container{
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+
+
+.landing-page{
+
+    position: relative;
+    background: white;
+}
+
+.landing-page .header-area{
+    display: flex;
+    padding: 25px 0 0;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.landing-page .header-area .logo{
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 300px;
+    color:black;
+}
+
+.landing-page .header-area .links{
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.landing-page .header-area .links li{
+    display:inline-block;
+    margin-left: 30px;
+    color:black;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 500;
+}
+
+.landing-page .header-area .links li:hover{
+    font-size: 20px;
+    font-weight: 900;
+   
+}
+
+.landing-page .header-area .links li:last-child{
+    border: 0;
+    border-radius: 20px;
+    padding: 12px 30px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color:#3333ff;
+    font-family: 'Montserrat', sans-serif;
+  
+    
+}
+
+.landing-page .info{
+    width: 35%;
+    float: left;
+    margin-top: 130px;
+}
+
+.landing-page .info h1{
+    font-style: 45px;
+    margin:  0 0 20px;
+    line-height: 1.4;
+    color: rgb(163, 4, 255);
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+.landing-page .info p{
+    margin:  0 ;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.landing-page .info button{
+    border: 0;
+    border-radius: 20px;
+    padding: 12px 30px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color:#3333ff;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.landing-page .image{
+    width: 50%;
+    float: right;
+    margin-top: 35px;
+}
+
+.landing-page .image img{
+    max-width: 100%;
+}
